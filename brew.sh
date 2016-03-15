@@ -33,7 +33,7 @@ brew install bash
 # Add the new shell to the list of allowed shells
 # sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
 # Change to the new shell
-# chsh -s /usr/local/bin/bash 
+# chsh -s /usr/local/bin/bash
 
 brew tap homebrew/versions
 brew install bash-completion2
@@ -102,6 +102,7 @@ brew install git
 # brew install rhino
 # brew install speedtest_cli
 # brew install ssh-copy-id
+# brew install testssl
 # brew install tree
 # brew install webkit2png
 # brew install zopfli
