@@ -62,5 +62,34 @@ brew install sbt
 brew install scala
 brew install subversion
 
+brew tap caskroom/cask
+
+# These should be installed manually as they require root access
+# brew cask install atom
+# brew cask install java
+# brew cask install karabiner
+# brew cask install macpass
+# brew cask install skype
+# brew cask install slack
+# brew cask install spotify
+# brew cask install steam
+# brew cask install utorrent
+# brew cask install vlc
+
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Install Atom plugins
+apm install asciidoc-preview
+apm install docblockr
+apm install git-plus
+apm install highlight-selected
+apm install language-asciidoc
+apm install language-gradle
+apm install language-oracle
+apm install linter
+apm install linter-eslint
+apm install linter-jsonlint
+apm install react
+
+apm clean

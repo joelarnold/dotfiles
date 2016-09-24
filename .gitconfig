@@ -131,7 +131,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	gpgsign = false
 
 [diff]
 
@@ -186,4 +186,4 @@
 
 [user]
   name = Joël Arnold
-  email = Joel.Arnold@crealogix.com
+  useConfigOnly = true
