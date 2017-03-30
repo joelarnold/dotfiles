@@ -76,6 +76,8 @@
 		fi \
 	}; f"
 
+	fix = "!git diff --name-only | uniq | xargs atom"
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
