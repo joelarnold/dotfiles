@@ -60,6 +60,7 @@ brew install node
 brew install sbt
 brew install scala
 brew install subversion
+brew install kubernetes-cli
 
 brew tap caskroom/cask
 
@@ -74,6 +75,8 @@ brew tap caskroom/cask
 # brew cask install steam
 # brew cask install utorrent
 # brew cask install vlc
+# brew cask install virtualbox
+# brew cask install minikube
 
 # Remove outdated versions from the cellar.
 brew cleanup
