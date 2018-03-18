@@ -22,13 +22,6 @@ brew install gnu-sed --with-default-names
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
 brew install bash
-
-# Add the new shell to the list of allowed shells
-# sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
-# Change to the new shell
-# chsh -s /usr/local/bin/bash
-
-brew tap homebrew/versions
 brew install bash-completion2
 
 # Switch to using brew-installed bash as default shell
@@ -40,58 +33,23 @@ fi;
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
+# Install GnuPG to enable PGP-signing commits.
+brew install gnupg
+
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install grep
+brew install openssh
+brew install nmap
+brew install xz
+brew install git
 
-brew install ant
-brew install cf-cli
+# More stuff
 brew install dark-mode
 brew install dos2unix
-brew install git
 brew install gradle
-brew install groovy
-brew install htop-osx
 brew install httpie
-brew install nmap
 brew install node
-brew install sbt
-brew install scala
-brew install subversion
-brew install kubernetes-cli
-
-brew tap caskroom/cask
-
-# These should be installed manually as they require root access
-# brew cask install atom
-# brew cask install java
-# brew cask install karabiner
-# brew cask install macpass
-# brew cask install skype
-# brew cask install slack
-# brew cask install spotify
-# brew cask install steam
-# brew cask install utorrent
-# brew cask install vlc
-# brew cask install virtualbox
-# brew cask install minikube
 
 # Remove outdated versions from the cellar.
 brew cleanup
-
-# Install Atom plugins
-apm install asciidoc-preview
-apm install docblockr
-apm install git-plus
-apm install highlight-selected
-apm install language-asciidoc
-apm install language-gradle
-apm install language-oracle
-apm install linter
-apm install linter-eslint
-apm install linter-jsonlint
-apm install react
-
-apm clean
