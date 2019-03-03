@@ -79,7 +79,7 @@
 		fi \
 	}; f"
 
-	fix = "!git diff --name-only | uniq | xargs atom"
+	fix = "!git diff --name-only | uniq | xargs code"
 
 [apply]
 

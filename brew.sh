@@ -42,6 +42,7 @@ brew install gnupg
 brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
+
 brew install nmap
 brew install xz
 brew install git
